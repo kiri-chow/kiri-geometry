@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "kiri-geometry"
+version = "0.1.0"
+description = "a python module with base geometric components"
+authors = ["kiri-chow"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.23.2"
+matplotlib = "^3.5.3"
+scikit-learn = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
