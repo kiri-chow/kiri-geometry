@@ -12,6 +12,7 @@ matplotlib = "^3.5.3"
 scikit-learn = "^1.1.2"
 
 [tool.poetry.dev-dependencies]
+spyder = "^5.3.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

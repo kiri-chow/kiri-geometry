@@ -139,7 +139,7 @@ def _calculate_line_standard_error(data, point, vector):
     return std
 
 
-def reg_plane(data):
+def regress_plane(data):
     '''
     regress a plane by giving data
 
